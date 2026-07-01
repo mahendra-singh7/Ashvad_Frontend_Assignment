@@ -1,0 +1,50 @@
+1:- What is HTML?
+Ans- HTML Stands for Hyper Text Markup Language. Its a Markup Language. HTML used for create webpage.
+============================================--
+
+2:- Semantic vs Non-semantic HTML
+Ans- Semantic tag describe their meaning and its easy to understanding for Developers and Browser(<header>, <footer>,<nav>, <main> etc). 
+     Non-semantic tag not describe their meaning and its only use for contain code(ex. <div>, <span>).
+============================================--
+
+3:- div vs span
+Ans- div and span both are non-semantic tags. 
+div is a container. its use for contain a block of code.
+span also is a container and its contain only inline code.
+============================================--
+
+4:- id vs class
+Ans- id is a unique name. Its given to one HTML Elements.
+     class is a common name. its given to multiple Elements.
+============================================--
+
+5:- Block vs Inline
+Ans- Block Elements takes the full width available. 
+     Inline Elements takes only the required width.
+============================================--     
+
+6:- alt attribute
+Ans- alt tag is a alternative text. its provides a text description of an image.
+============================================--
+
+7:- HTML Forms
+Ans- A HTML Form is used to collect user input (like name, email, password, etc.)
+    Some common HTML form Elements (<input>, <label>, <button>, <textarea>)
+============================================--
+
+8:- GET vs POST
+Ans- GET Sends data in the URL and Data is visible in the URL. Its unsecure for the sensitive data.
+     POST Sends data in the request body and Data is hidden from the URL. Its Secure for Password and Sensitive data.
+============================================--
+
+9:- Five semantic tags
+Ans- <header>
+     <footer>
+     <main>
+     <section>
+     <nav>
+============================================--
+
+10:- Importance of semantic HTML
+Ans- semantic HTML use for Better Readability, SEO Friendly, Well-Structured Website, code readability.
+============================================--

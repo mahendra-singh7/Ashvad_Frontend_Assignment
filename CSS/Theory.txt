@@ -1,0 +1,43 @@
+1. Box Model
+Ans- The CSS Box Model is a layout that consists of Content, Padding, Border, and Margin. 
+     It's control layout and spacing of webpages.
+============================================--
+
+2. Margin vs Padding
+Ans-Margin creates space outside the border. Its used to create space between elements.
+    Padding creates space inside the border. Its used to create space between contant and border.
+============================================--    
+    
+3. Flexbox vs Grid
+Ans-Flexbox is One-dimensional System. It's arrange row or column. its best for Navbar, in Flexbox items adjust based on content
+    Grid is Two-dimensiona system. It's arrange both(row and column), its used for complex page structure.
+============================================--    
+
+4. Responsive Design
+Ans-Responsive Design means creating a website that automatically adjusts its layout and content to  fit different screen sizes, such as mobile, tablet, and desktop, so it looks good on every device.
+============================================-- 
+
+5. Media Queries
+Ans-Media Queries are used in CSS to apply different styles for different screen sizes, such as mobile, tablet, and desktop. They help make a responsive website.
+============================================-- 
+
+6. Positioning
+Ans-Positioning is used to control the location of an HTML element on a webpage.
+============================================-- 
+
+7. display:none vs visibility:hidden
+Ans-display: none hides an element and removes it from the layout.
+    visibility: hidden hides the element but keeps its space in the layout. 
+============================================--     
+
+8. Specificity
+Ans-Specificity is the priority system CSS uses to decide which style is applied when multiple       styles target the same element.
+============================================-- 
+
+9. Transitions
+Ans-CSS Transitions are used to make changes in an element's properties happen smoothly over a specified duration, instead of changing instantly.
+============================================-- 
+
+10. Animations
+Ans-CSS Animations are used to create automatic movement or visual effects on elements using @keyframes.
+============================================-- 

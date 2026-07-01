@@ -1,0 +1,59 @@
+1. var vs let vs const
+Ans-All of these declare variables in JavaScript.
+    var is Old way to declare variables in JavaScript. var can be re-declared. It's used in Function-scoped.
+    let is the modern way to declare variables in JavaScript. let Cannot be re-declared in same scope and it Can be updated. It's used in Block-scoped.
+    const Used for constant values. const Cannot be re-declared or updated.It's used in Block-scoped.
+============================================--    
+
+2. == vs ===
+Ans-Double Equal(==) Compares only value.It can give unexpected results.
+    Triple Equal(===)Compares value and data type both. 
+============================================--    
+
+3. Data Types
+Ans-Data Types define what kind of value a variable can store.
+Primitive Data Types:-
+    String
+    Number
+    Boolean
+    Undefined
+    Null
+    Symbol
+    BigInt
+
+Non-Primitive:-
+    Object
+    Array
+    Function
+============================================--    
+
+4. Functions
+Ans-A Function is a block of code that performs a specific task. It runs only when it is called.
+    A function is declared using the function keyword.
+============================================--
+
+5. DOM
+Ans-DOM stand for Document Object Model. DOM is a programming interface that represents an HTML Document as a tree objects. It can be access, modify, add, or remove HTML elements dynamically.
+============================================--
+
+6. for...of vs for...in
+Ans-for...of Used to iterate over values of an iterable (Array, String etc.). for...of Returns the element values. It's best for Arrays and Strings.
+
+   for...in Used to iterate over keys of an object or array. Returns the property names or array indexes.It's best for Objects.
+============================================--   
+
+7. Events
+Ans- Event is an action that happens in the browser, such as a mouse click, key press, form submit, or page load. JavaScript can detect these actions and perform a specific task.
+============================================--
+
+8. Event Delegation
+Ans-Event Delegation is a technique where you attach one event listener to a parent element instead of adding event listeners to each child element.
+============================================--
+
+9. Local Storage
+Ans-Local Storage is a Web Storage API that allows you to store data in the browser permanently. The data remains even after the browser is closed or the page is refreshed.
+============================================--
+
+10. Event Bubbling
+Ans-Event Bubbling is the process where an event starts from the target (child) element and then  propagates upward to its parent, and document.
+============================================--

@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahendra Singh | Portfolio</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- ================= Header ================= -->
+
+    <header>
+
+        <nav class="navbar">
+
+            <a href="#home" class="logo">Mahendra</a>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="nav-buttons">
+
+                <button id="themeBtn">Dark Theme</button>
+
+                <i class="fa-solid fa-bars menu-icon" id="menuIcon"></i>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+    <main>
+
+        <!-- ================= Home ================= -->
+
+        <section id="home" class="home">
+
+            <div class="home-text">
+
+                <h1>Hello, I'm</h1>
+
+                <h2>Mahendra Singh</h2>
+
+                <h3>Frontend Developer</h3>
+
+                <p>
+                    I build responsive and user-friendly websites using
+                    HTML, CSS and JavaScript.
+                </p>
+
+                <div class="home-buttons">
+
+                    <a href="https://drive.google.com/file/d/1TcypdfWxHyIXxklQXlUhwIS_5189CxFL/view?usp=drive_link"
+                        class="btn"
+                        target="_blank">
+                        Download Resume
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="home-image">
+
+                <img src="images/profile.jpg" alt="Mahendra Singh">
+
+            </div>
+
+        </section>
+
+        <!-- ================= About ================= -->
+
+        <section id="about">
+
+            <h2 class="section-title">About Me</h2>
+
+            <article class="about-container">
+
+                <p>
+                    Hello! I'm Mahendra Singh, a beginner Frontend Developer.
+                    I have knowledge of HTML, CSS and JavaScript.
+                    I enjoy creating responsive websites and continuously
+                    learning new web development skills.
+                </p>
+
+            </article>
+
+        </section>
+
+        <!-- ================= Skills ================= -->
+
+        <section id="skills">
+
+            <h2 class="section-title">My Skills</h2>
+
+            <div class="skills-container">
+
+                <div class="skill-card">HTML</div>
+
+                <div class="skill-card">CSS</div>
+
+                <div class="skill-card">JavaScript</div>
+
+                <div class="skill-card">Responsive Design</div>
+
+                <div class="skill-card">Generative AI</div>
+
+                <div class="skill-card">Data Extraction</div>
+
+            </div>
+
+        </section>
+
+        <!-- ================= Projects ================= -->
+
+        <section id="projects">
+
+            <h2 class="section-title">My Projects</h2>
+
+            <div class="projects-container">
+
+                <!-- Project 1 -->
+
+                <article class="project-card">
+
+                    <img src="https://static.vecteezy.com/system/resources/thumbnails/018/972/682/small/calculator-3d-application-icon-png.png"
+                        alt="Calculator Project">
+
+                    <h3>Calculator</h3>
+
+                    <p>
+                        Simple Calculator using HTML, CSS and JavaScript.
+                    </p>
+
+                    <a href="assets/Calculator/index.html"
+                        class="btn"
+                        target="_blank">
+                        View Project
+                    </a>
+
+                </article>
+
+                <!-- Project 2 -->
+
+                <article class="project-card">
+
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmKmRR2pVFaCEPB6Qq4OyUGT8LiRQOaA1EPlAvp0rFfHo8XPRugi_fIib-&s=10"
+                        alt="To-Do List Project">
+
+                    <h3>To-Do List</h3>
+
+                    <p>
+                        Beginner-friendly task manager built using HTML,
+                        CSS and JavaScript.
+                    </p>
+
+                    <a href="assets/ToDo_List/index.html"
+                        class="btn"
+                        target="_blank">
+                        View Project
+                    </a>
+
+                </article>
+
+                <!-- Project 3 -->
+
+                <article class="project-card">
+
+                    <img src="https://cdn.vectorstock.com/i/500p/74/38/digital-validation-checkmark-icon-vector-62057438.jpg"
+                        alt="Form Validation Project">
+
+                    <h3>Form Validation</h3>
+
+                    <p>
+                        Registration form with JavaScript validation.
+                    </p>
+
+                    <a href="assets/Form_Validation/index.html"
+                        class="btn"
+                        target="_blank">
+                        View Project
+                    </a>
+
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- ================= Contact ================= -->
+
+        <section id="contact">
+
+            <h2 class="section-title">Contact Me</h2>
+
+            <div class="contact-container">
+
+                <form id="contactForm" autocomplete="off">
+
+                    <label for="name">Name</label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        placeholder="Enter Your Name"
+                        required>
+
+                    <small class="error" id="nameError"></small>
+
+                    <label for="email">Email</label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="Enter Your Email"
+                        required>
+
+                    <small class="error" id="emailError"></small>
+
+                    <label for="message">Message</label>
+
+                    <textarea
+                        id="message"
+                        rows="6"
+                        placeholder="Enter Your Message"
+                        required></textarea>
+
+                    <small class="error" id="messageError"></small>
+
+                    <button type="submit">
+                        Send Message
+                    </button>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- ================= Footer ================= -->
+
+    <footer>
+
+        <p>
+            © 2026 Mahendra Singh. All Rights Reserved.
+        </p>
+
+    </footer>
+
+    <!-- ================= Scroll To Top ================= -->
+
+    <button id="scrollTopBtn">
+
+        <i class="fa-solid fa-arrow-up"></i>
+
+    </button>
+
+    <!-- JavaScript -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
