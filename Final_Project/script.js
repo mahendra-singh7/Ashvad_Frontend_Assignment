@@ -15,16 +15,19 @@ menuIcon.addEventListener("click", function () {
 
 const themeBtn = document.getElementById("themeBtn");
 
-themeBtn.addEventListener("click", function () {
-
-    document.body.classList.toggle("dark");
-
+function updateThemeButton() {
     if (document.body.classList.contains("dark")) {
         themeBtn.innerText = "Light Theme";
     } else {
         themeBtn.innerText = "Dark Theme";
     }
+}
 
+updateThemeButton();
+
+themeBtn.addEventListener("click", function () {
+    document.body.classList.toggle("dark");
+    updateThemeButton();
 });
 
 // ==========================
