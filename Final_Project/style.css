@@ -223,8 +223,10 @@ body.dark .about-container p{color:#f5f5f5;}
 
 .skills-container{
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    grid-template-columns:repeat(6,minmax(0,1fr));
     gap:20px;
+    max-width:1100px;
+    margin:auto;
 }
 
 .skill-card,.project-card{
