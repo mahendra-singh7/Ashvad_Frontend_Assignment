@@ -5,8 +5,31 @@
 const menuIcon = document.getElementById("menuIcon");
 const navLinks = document.getElementById("navLinks");
 
-menuIcon.addEventListener("click", function () {
+function closeMenu() {
+    navLinks.classList.remove("show");
+}
+
+menuIcon.addEventListener("click", function (event) {
+    event.stopPropagation();
     navLinks.classList.toggle("show");
+});
+
+document.addEventListener("click", function (event) {
+    const clickedInsideMenu = navLinks.contains(event.target) || menuIcon.contains(event.target);
+
+    if (!clickedInsideMenu) {
+        closeMenu();
+    }
+});
+
+document.querySelectorAll(".nav-links a").forEach(function (link) {
+    link.addEventListener("click", closeMenu);
+});
+
+window.addEventListener("resize", function () {
+    if (window.innerWidth > 768) {
+        closeMenu();
+    }
 });
 
 // ==========================
